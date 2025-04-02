@@ -106,7 +106,7 @@ class DroneGridEnv:
                 color=self.colors['path'], linestyle=':', marker='o', markersize=4
             )
             
-            plt.title("Drone Navigation (Corrected Coordinates)")
+            plt.title("Drone Navigation")
         
         # Upating visualization
         self.drone_artist.center = (self.drone_pos[1]+0.5, self.drone_pos[0]+0.5)
